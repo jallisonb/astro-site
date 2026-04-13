@@ -1,11 +1,7 @@
 ---
-import "../styles/global.css";
----
-title: "My First Blog Post"
+title: "Post 1"
 ---
 
-# My First Blog Post
+# Post 1
 
-This is my first blog post for my Astro website.
-
-I am learning how to use Astro and Markdown!
+My first blog post.
