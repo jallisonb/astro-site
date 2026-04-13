@@ -1,14 +1,52 @@
+html {
+  background-color: #f1f5f9;
+  font-family: sans-serif;
+}
+
 body {
-  margin: 0;
-  padding: 20px;
-  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80ch;
+  padding: 1rem;
 }
 
-a {
-  color: purple;
-  text-decoration: none;
+/* NAV */
+.nav-links {
+  display: none;
 }
 
-h1 {
-  margin-bottom: 10px;
+.nav-links a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+/* MENU BUTTON */
+.menu {
+  background: #0d0950;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  font-weight: bold;
+}
+
+/* OPEN MENU */
+:has(.menu[aria-expanded="true"]) .nav-links {
+  display: block;
+}
+
+/* DESKTOP */
+@media (min-width: 636px) {
+  .nav-links {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    padding: 10px 15px;
+  }
 }
