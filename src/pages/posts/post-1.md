@@ -1,4 +1,6 @@
 ---
+import "../styles/global.css";
+---
 title: "My First Blog Post"
 ---
 
