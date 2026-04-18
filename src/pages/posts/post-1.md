@@ -1,7 +1,11 @@
 ---
-title: "Post 1"
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 'My First Blog Post'
+pubDate: 2022-07-01
+description: 'This is the first post of my new Astro blog.'
+author: 'Joshua Allison-Begay'
+image:
+    url: 'https://docs.astro.build/assets/rose.webp'
+    alt: 'The Astro logo on a dark background with a pink glow.'
+tags: ["astro", "blogging", "learning in public"]
 ---
-
-# Post 1
-
-My first blog post.
